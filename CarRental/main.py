@@ -87,15 +87,15 @@ class InventoryGUI:
         self.root.configure(bg="#2d3142")
 
         # Load images
-        self.add_image = tk.PhotoImage(file="Add Car.png")
-        self.remove_image = tk.PhotoImage(file="Remove Car.png")
-        self.find_image = tk.PhotoImage(file="Find Car.png")
-        self.rent_image = tk.PhotoImage(file="Rent Car.png")
-        self.return_image = tk.PhotoImage(file="Return Car.png")
-        self.view_image = tk.PhotoImage(file="View All Cars.png")
-        self.save_image = tk.PhotoImage(file="Save to Database.png")
-        self.load_image = tk.PhotoImage(file="Load From Database.png")
-        self.quit_image = tk.PhotoImage(file="Quit.png")
+        self.add_image = tk.PhotoImage(file="images/Add Car.png")
+        self.remove_image = tk.PhotoImage(file="images/Remove Car.png")
+        self.find_image = tk.PhotoImage(file="images/Find Car.png")
+        self.rent_image = tk.PhotoImage(file="images/Rent Car.png")
+        self.return_image = tk.PhotoImage(file="images/Return Car.png")
+        self.view_image = tk.PhotoImage(file="images/View All Cars.png")
+        self.save_image = tk.PhotoImage(file="images/Save to Database.png")
+        self.load_image = tk.PhotoImage(file="images/Load From Database.png")
+        self.quit_image = tk.PhotoImage(file="images/Quit.png")
 
         # Buttons
         self.button_frame = tk.Frame(root, bg="#2d3142")
